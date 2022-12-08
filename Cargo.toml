@@ -1,0 +1,12 @@
+[package]
+name = "tools"
+version = "0.1.0"
+edition = "2021"
+publish = false  # Project-specific development tool.
+description = """
+Project-specific tooling.
+"""
+
+[[bin]]
+name = "cargo-teensy-runner"
+path = "src/runner.rs"
